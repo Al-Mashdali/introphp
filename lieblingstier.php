@@ -36,9 +36,9 @@
             <option value="Blue">Blue</option>
             <option value="Yellow">Yellow</option>
             <option value="Black">Black</option>
-        </select>
+        </select><br><br>
 
-        <button>Absenden</buttton>
+        <button>Absenden</buttton><br><br>
     </form>
 
 </body>

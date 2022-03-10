@@ -11,7 +11,17 @@
     
 <?php include 'header.php' ?>
 
+<div>
+    <p>Hallo Leute</p>
+</div>
+
+
 <?php include 'lieblingstier.php' ?>
+
+<div>
+    <p>Tschüüüs Leute</p>
+</div>
+
 
 <?php include 'footer.php' ?>
 
