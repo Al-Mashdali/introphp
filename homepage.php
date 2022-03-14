@@ -13,22 +13,17 @@
 <?php include 'header.php' ?>
 
 <div>
-    <p>Das ist zum ausfüllen</p>
+    <p>Hallo Leute</p>
+</div>
+
+<div>
+    <p>Hiee geht es zum</p><a href="/index.php">formular</a>
 </div>
 
 
-<?php include 'lieblingstier.php' ?>
-
 <div>
-    <p>Danke für dein Einsatz :)</p>
+    <p>Danke!</p>
 </div>
 
 
 <?php include 'footer.php' ?>
-
-
-
-
-
-</body>
-</html>

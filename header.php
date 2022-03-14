@@ -7,6 +7,22 @@
     <title>Document</title>
 </head>
 <body>
-    HELLO
+<div class="topnav">
+    <?php
+    $menuItems= array (
+    array("/homepage.php" , "Home"),
+    array("/index.php" , "Formular"),
+
+    );
+    
+    /* <a class="active" href="/homepage.php">Home</a>
+    <a href="/index.php">Formular</a> */
+
+    foreach( $menuItems as $item){
+        echo "<a href='$item[0]'>$item[1]<a/> ";
+    }
+?>
+
+</div>
 </body>
 </html>
