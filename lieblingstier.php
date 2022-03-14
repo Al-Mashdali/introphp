@@ -13,10 +13,10 @@
     <form action="lieblingstierResult.php" method="post">
 
         <label for="name">Name:</label>
-        <input type="tsxt" id="name" name="name"><br>
+        <input type="text" id="name" name="name"><br>
 
         <label for="email">Email:</label>
-        <input type="tsxt" id="email" name="email"><br>
+        <input type="text" id="email" name="email"><br>
 
         <label for="favoriteAnimal">Choose an animal:</label>
         <select id="favoriteAnimal" name="favAnimal">
@@ -38,7 +38,7 @@
             <option value="Black">Black</option>
         </select><br><br>
 
-        <button>Absenden</buttton><br><br>
+        <input type="submit"></input><br><br>
     </form>
 
 </body>
