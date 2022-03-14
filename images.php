@@ -13,18 +13,24 @@
     <?php include 'inc/header.php' ?>
 
     <div>
-        <p>Hallo Leute</p>
+        <p>HIER PAAR BILDER</p>
     </div>
 
-    <div>
-        <p>Hiee geht es zum</p><a href="/index.php">formular</a>
-    </div>
+    
+   
+   <?php
+    $dir = "images/";
 
-
-    <div>
-        <p>Danke!</p>
-    </div>
-
+    // Open a directory, and read its contents
+    if (is_dir($dir)) {
+        if ($dh = opendir($dir)) {
+            while (($file = readdir($dh)) !== false) {
+                echo "<img src='/images/" . $file . "' style='width:200px; height:200px'><br>";
+            }
+            closedir($dh);
+        }
+    }
+    ?>
 
     <?php include 'inc/footer.php' ?>
 
